@@ -29,10 +29,10 @@ class MyHandler(FileSystemEventHandler):
 		".html": "Sorted/htmlFiles",
 		".sh":   "Sorted/bash",
 		".pl" :  "Sorted/perl",
-        ".mkv" : "Sorted/youtube",
-        ".flv" : "Sorted/youtube",
-        ".mp4" : "Sorted/youtube",
-        ".mp3" : "Sorted/youtube",
+		".mkv" : "Sorted/youtube",
+		".flv" : "Sorted/youtube",
+		".mp4" : "Sorted/youtube",
+		".mp3" : "Sorted/youtube",
 		"webm" : "Sorted/youtube",
 		".pdf" : "Sorted/pdf"
 
