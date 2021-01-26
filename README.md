@@ -1,9 +1,9 @@
-###Watchdog.py
+### Watchdog.py
 
-###Description
+### Description
 A simple script to automate the cleaning of my local systems
 
-###requirements
+### Requirements
 The script requires python3 to run. Tested on  `5.9.0-kali5-amd64` which is basically a debian system.
 You need to install a few modules using pip 
 
@@ -11,7 +11,7 @@ You need to install a few modules using pip
 pip3 install watchdog
 
 ```
-###Setting up
+### Setting up
 Simply clone or download this repository and navigate your download location
 
 ```
@@ -30,7 +30,7 @@ To change the location where the files should be moved to , edit the file watchd
 
 `HOME = /home/media/WORK`
 
-###ISSUES
+### Issues
 Create a pull request , if you  have some ideas
 Dm me on twitter [cephas](https://twitter.com/macharia_cephas) incase of any issues 
 
