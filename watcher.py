@@ -49,9 +49,11 @@ class MyHandler(FileSystemEventHandler):
 		for files in os.listdir('.'):
 			j = 1
 			i = 1
-			#Skip the actual script when moving other files
-			if os.path.isdir(files) or os.path.basename(files) == sys.argv[0] or files.startwith('.'):
+			#Skip the actual script when moving other files and dot files
+			if os.path.isdir(files) or os.path.basename(files) == sys.argv[0]:
 				
+				pass
+			elif (files.startswith('.')):
 				pass
 			else:
 				name_of_file,file_extension = os.path.splitext(files)
