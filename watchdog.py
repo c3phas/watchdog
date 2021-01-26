@@ -50,7 +50,8 @@ class MyHandler(FileSystemEventHandler):
 			j = 1
 			i = 1
 			#Skip the actual script when moving other files
-			if os.path.isdir(files) or os.path.basename(files) == sys.argv[0]:
+			if os.path.isdir(files) or os.path.basename(files) == sys.argv[0] or files.startwith('.'):
+				
 				pass
 			else:
 				name_of_file,file_extension = os.path.splitext(files)
