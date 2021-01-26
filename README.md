@@ -30,6 +30,9 @@ To change the location where the files should be moved to , edit the file watchd
 
 `HOME = /home/media/WORK`
 
+To add files to be tracked ,add the ext and the location you wish to store them  as a dictionary inside the watchdog.py file
+".extension":"path/to/store"
+
 ### Issues
 Create a pull request , if you  have some ideas
 Dm me on twitter [cephas](https://twitter.com/macharia_cephas) incase of any issues 
