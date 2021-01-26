@@ -1,4 +1,4 @@
-### Watchdog.py
+### Watcher.py
 
 ### Description
 A simple script to automate the cleaning of my local systems
@@ -19,9 +19,9 @@ git clone https://github.com/peter-macharia/watchdog.git
 
 cd watchdog
 
-cp watchdog.py ~/Downloads
+cp watcher.py ~/Downloads
 
-python3 watchdog.py 
+python3 watcher.py 
 
 ```
 By default the script will clean the directory from which it is run from and store all those files under your **~/Stored/** basically a directory inside your home folder.
